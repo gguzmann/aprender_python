@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
     <title>Python</title>
   </head>
 
@@ -15,7 +15,7 @@
 
   	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 		<a class="navbar-brand" href="#">Python 
-		<img height="40" src="logo-python.png"></a>
+		<img height="40" src="assets/logo-python.png"></a>
 		
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -40,7 +40,7 @@
      <div class="jumbotron jumbotron-fluid">
 	 	<div class="container">
 		    <h1>Modulo I</h1>
-	    <img  style="float:right; margin-top:-7rem;" src="logo-python.png">
+	    <img  style="float:right; margin-top:-7rem;" src="assets/logo-python.png">
 	    <p class="lead">Introducción a la programación con Python.</p>
 	  </div>
 	</div>
@@ -106,6 +106,12 @@
 			<p>Las variables en Python son sensibles a mayúsculas y minúsculas (p.e. color, Color y COLOR son tres nombres de variables diferentes). Las variables pueden ser reasignadas para cambiar su valor, tantas veces como queramos:</p>
 			<p class="ejemplo">>>> x = 5</br>>>> print(x)</br>5</br>>>> x = 'Hola'</br>>>> print(x)</br>Hola</br>>>> x = 2.18</br>>>> print(x)</br>2.18</p>
 
+			<p>Las variables almacenan valores no expresiones. Por ejemplo, considera la expresión en las sentencias <code>x = 10 + 5</code> y <code>y = 10 + 7 - 2</code> Ambas son evaluadas a 15. El resultado final es el mismo: Las dos sentencias de asignación almacenan el valor 15 en las variables X e Y.</p>
+			<p>La primera vez que una variables es usada en una sentencia de asignación, Python creará esa variable. Para comprobar qué valor contiene una variable dada, puedes llamar a la funcion: <code>print(nombre_variable)</code></p>
+
+			<p>Las expresiones son valores (tales como 2 ó 5) combinados con operadores (tales como + o -). Python puede evaluar expresiones, es decir, reducirlas a un valor único. Puedes almacenar valores dentro de las variables de modo que tu programa sea capaz de recordarlas y usarlas más adelante.</p>
+
+			<p class="ejemplo">>>> x = 5</br>>>> y = 2</br>>>> z = x + y</br>>>> print(z)</br>7</p>
 			</article>
 
 			<article>
@@ -129,7 +135,7 @@
 			<h4>Condicionales</h4>
 			<p>Evalúa la expresión lógica condición1 y ejecuta el primer bloque de código si es True; si no, evalúa la siguientes condiciones hasta llegar a la primera que es True y ejecuta el bloque de código asociado. Si ninguna condición es True ejecuta el bloque de código después de else:.</p>
 			<p class="ejemplo">>>>if condicion1:</br>>>>    Codigo que se ejecutara solo si cumple la condicion1</br>>>>elif condicion2:</br>>>>    Codigo que se ejecutara solo si cumple la condicion2</br>>>>else:</br>>>>    Codigo que se ejecutara si NO cumple ninguna condicion</p>
-			<p>No en todos los casos es necesario el elif</p>
+			<p>Puedes escribir todos los elif como alternativas pueda tener el codigo, o si la condicion es solo una o otra puedes solo ocupar else</p>
 
 			<p>Ejemplo:</p>
 			<small>Sin elif</small>
