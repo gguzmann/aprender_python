@@ -1,0 +1,30 @@
+.jumbotron {
+	background: #884EA0;
+	color: white;
+    padding: 5	rem 2rem;
+}
+
+code {
+	/*color: black;*/font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+font-size: 0.95em;
+letter-spacing: 0.015em;
+line-height: 120%;
+padding: 0.5em;
+border: 1px solid #ccc;
+background-color: #f8f8f8;
+}
+
+.ejemplo {
+	/*color: black;*/font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+font-size: 0.95em;
+letter-spacing: 0.015em;
+line-height: 120%;
+padding: 0.5em;
+border: 1px solid #ccc;
+background-color: #f8f8f8; 
+}
+
+article {
+	margin-bottom: 6rem; 
+}
+
