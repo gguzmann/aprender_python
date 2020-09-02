@@ -13,7 +13,7 @@
 
   <body>
   	<nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="menu">
-		<a class="navbar-brand" href="index.php">Python 
+		<a class="navbar-brand" href="index.html">Python 
 		<img height="40" src="assets/logo-python.png"></a>
 		
 
@@ -25,10 +25,10 @@
 		          Modulos
 		        </a>
 		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="modulo1.php">Modulo I </a>
-		          <a class="dropdown-item" href="modulo1.php">Modulo II</a>
+		          <a class="dropdown-item" href="modulo1.html">Modulo I </a>
+		          <a class="dropdown-item" href="index.html">Modulo II</a>
 		          <div class="dropdown-divider"></div>
-		          <a class="dropdown-item" href="#">Ejercicios</a>
+		          <a class="dropdown-item" href="ejercicios.html">Ejercicios</a>
 		        </div>
 		      </li>
 		      
