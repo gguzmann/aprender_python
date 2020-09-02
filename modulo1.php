@@ -1,41 +1,6 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
-    <title>Python</title>
-  </head>
-
-  <body>
-
-  	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-		<a class="navbar-brand" href="#">Python 
-		<img height="40" src="assets/logo-python.png"></a>
-		
-
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-    
-    		<ul class="navbar-nav mr-auto">
-      			<li class="nav-item dropdown">
-		        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-		          Modulos
-		        </a>
-		        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-		          <a class="dropdown-item" href="#">Modulo I </a>
-		          <a class="dropdown-item" href="#">Modulo II</a>
-		          <div class="dropdown-divider"></div>
-		          <a class="dropdown-item" href="#">Ejercicios</a>
-		        </div>
-		      </li>
-		      
-		    </ul>
-  		</div>
-	</nav>
+<?php
+include('nav.php');
+?>
 
      <div class="jumbotron jumbotron-fluid">
 	 	<div class="container">
@@ -152,7 +117,9 @@
 			<p>La función 
 			<code>input()</code> permite obtener texto escrito por teclado. Al llegar a la función, el programa se detiene esperando que se escriba algo y se pulse la tecla Intro, como muestra el siguiente ejemplo:</p>
 			<p class="ejemplo">>>> print('Como te llamas?')</br>>>> nombre = input()</br>>>> print('Buenos dias', nombre)</br>Como te llamas?</br>.. Gabriel</br>Buenos dias Gabriel</p>
-			
+			<p>En el ejemplo anterior tambien se podria ocupar input de la siguiente manera: </br><code>nombre = input("Como te llamas?")</code>. De esta forma no habria que poner el <code>print()</code></p>
+			<p>De forma predeterminada, la función input() convierte la entrada en una cadena, aunque escribamos un número. Si intentamos hacer operaciones, se producirá un error.</p>
+			<p>Si se quiere que Python interprete la entrada como un número entero, se debe utilizar la función int() de la siguiente manera: <code>numero = int(input("Ingrese un numero"))</code>. De esta manera se podra utilizar la variable para realizar operaciones matematicas</p>
 		</article>
 
 		<article>
@@ -165,17 +132,17 @@
 			<p>Escribir un programa que pregunte el 'nombre' del usuario y 'edad' en la consola, después de que el usuario lo introduzca muestre por pantalla la cadena <code>¡Hola 'nombre'!, tu edad es 'edad'</code> </p>
 			
 			<strong>Ejercicio III</strong>
-			<p>Escribir un programa que muestre por pantalla la cadena <code>¡Hola Mundo!.</code></p>
+			<p>Escribir un programa que le pida al usuario ingresar un numero 1 y luego un numero 2, despues que imprima en pantalla <code>La suma de los numeros es 'suma_numeros'</code></p>
 			
+			<strong>Ejercicio IV</strong>
+			<p>Escriba un programa que pida una cantidad de segundos y luego que escriba cuántos minutos y segundos son. Como en el siguiente ejemplo:</p>
+			<p class="ejemplo">>>>Escriba una cantidad de segundos: 120</br>120 segundos son 2 minutos y 0 segundos</p>
+			
+			<strong>Ejercicio V</strong>
+			<p>Escriba un programa que pida dos números y que conteste cuál es el menor y cuál el mayor o que escriba que son iguales.. Como en el siguiente ejemplo:</p>
+			<p class="ejemplo">>>>Escriba un numero: 2</br>>>>Escriba otro numero: 9</br>el numero 2 es menor que 9</br></br>>>>Escriba un numero: 5</br>>>>Escriba otro numero: 5</br>Los numeros son iguales</p> 
 		</article>
 	</div>
 	</div>
 	</div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-  </body>
-</html>
